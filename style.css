@@ -1,0 +1,98 @@
+/* line 1, style.scss */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+/* line 7, style.scss */
+body {
+  font-size: 10px; }
+
+/* line 11, style.scss */
+.calculator {
+  width: 320px;
+  height: 520px;
+  background: #eaedef;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+/* line 22, style.scss */
+.result {
+  height: 120px; }
+
+/* line 27, style.scss */
+.history {
+  text-align: right;
+  height: 20px;
+  margin: 0 20px;
+  padding-top: 20px;
+  font-size: 1.5rem;
+  color: #919191; }
+
+/* line 36, style.scss */
+.output {
+  text-align: right;
+  height: 60px;
+  margin: 30px 20px 10px;
+  font-size: 3rem; }
+
+/* line 43, style.scss */
+.keyboard {
+  height: 400px; }
+
+/* line 47, style.scss */
+.operator, .number, .empty {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  float: left;
+  border-radius: 50%;
+  border-width: 0;
+  font-weight: 600;
+  font-size: 1.5rem; }
+
+/* line 58, style.scss */
+.number, .empty {
+  background: #eaedef; }
+
+/* line 62, style.scss */
+.number, .operator {
+  cursor: pointer; }
+
+/* line 66, style.scss */
+.operator:active, .number:active {
+  font-size: 1.3rem; }
+
+/* line 70, style.scss */
+.operator:focus, .number:focus, .empty:focus {
+  outline: none; }
+
+/* line 74, style.scss */
+button:nth-child(4) {
+  font-size: 2rem;
+  background: #20b2aa; }
+
+/* line 79, style.scss */
+button:nth-child(8) {
+  font-size: 2rem;
+  background: #ffa500; }
+
+/* line 84, style.scss */
+button:nth-child(12) {
+  font-size: 2rem;
+  background: #f08080; }
+
+/* line 89, style.scss */
+button:nth-child(16) {
+  font-size: 2rem;
+  background: #7d93e0; }
+
+/* line 94, style.scss */
+button:nth-child(20) {
+  font-size: 2rem;
+  background: #9477af; }
